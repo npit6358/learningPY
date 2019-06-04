@@ -19,4 +19,3 @@ def oddEven(limit: int) -> str:
             evenness = 'ODD'
         print(str(n) + "  " + evenness)
         n += 1
-    return print("\nwe're finally finished")
