@@ -11,7 +11,7 @@
 """
 
 
-def oddEven(limit: int) -> str:
+def oddEven(limit: int) -> None:
 
     n  = 0
     while n <= limit:

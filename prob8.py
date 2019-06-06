@@ -13,7 +13,7 @@ curfact - the current possible factor we are using to do prime check.
 
 
 
-def primes(limit: int):
+def primes(limit: int) ->None:
 
     print('1')              #'1' is the first prime for any limit integer.
 

@@ -8,7 +8,7 @@ Brute force again.
 """
 
 
-def isperfect(number: int) -> str:
+def isperfect(number: int) -> None:
 
     summ = 1                #1 is divisor to every number
 
