@@ -17,12 +17,12 @@ def primes(limit: int):
 
     print('1')              #'1' is the first prime for any limit integer.
 
-    curnum = 3              
+    curnum = 3
     while curnum < limit:   #figure out if curnum is prime, print out if so.
         isprime = True      #need to init inside loop before next while loop.
-    
-        
-        curfact=2           #n is the current possible factor we're checking.
+
+
+        curfact=2           #curfact is the current possible factor we check.
         while curfact < curnum:
             if curnum % curfact == 0: isprime = False
             curfact += 1
@@ -30,6 +30,6 @@ def primes(limit: int):
         if isprime == True:
             print(curnum)
 
-        curnum += 2         #increment curnum and start next iteration. note 
+        curnum += 2         #increment curnum and start next iteration. note
                             #we halve the iterations by ignoring even numbers
                             #via our choice of increment value.

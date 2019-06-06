@@ -15,9 +15,7 @@ def isperfect(number: int) -> str:
     #test for divisors
     divisor = 2
     while divisor <= number/2.0:
-
         if number % divisor == 0: summ += divisor
-        
         divisor += 1
 
     #test if perfect
