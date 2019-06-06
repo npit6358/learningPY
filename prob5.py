@@ -18,5 +18,6 @@ def oddEven(limit: int) -> str:
         evenness = 'EVEN'
         if n % 2 != 0:
             evenness = 'ODD'
-        print(str(n) + "  " + evenness)
+#        print(str(n) + "  " + evenness)
+        print(f"{n} {evenness}")
         n += 1
