@@ -8,7 +8,7 @@ The idea is to reverse the entire string and then reverse each substring.
 This gets the word order right while reversing the substring gets the word
 orientation right.
 
-Assume the spaces between and after words are intended, if the whitespace
+Assume the spaces befoe between and after words are intended, if the whitespace
 is not wanted then strip the reverse string when printing.
 
 wordreverse('one two three four')
