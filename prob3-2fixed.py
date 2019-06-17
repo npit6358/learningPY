@@ -8,14 +8,14 @@ The idea is to reverse the entire string and then reverse each substring.
 This gets the word order right while reversing the substring gets the word
 orientation right.
 
-Assume the spaces befoe between and after words are intended, if the whitespace
-is not wanted then strip the reverse string when printing.
+Assume the spaces before, between, and after words are intended, if the
+whitespace is not wanted then strip the reverse string when printing.
 
 wordreverse('one two three four')
 >>>>'four three two one'
 """
 
-def wordreverse(string: str) -> str:
+def phrasereverse(string: str) -> str:
 
     index = 0
     stringrev = string[::-1]   #reverse our entire input string
@@ -33,8 +33,8 @@ def wordreverse(string: str) -> str:
 
         tmplist.reverse()  #turn most recent word around
 
-        for i in tmplist:  #place mrw into our reversed phrase char by char.
-            reverse = reverse + i
+        for ch in tmplist:  #place mrw into our reversed phrase char by char.
+            reverse = reverse + ch
         reverse = reverse + ' '  #include space after every found word
         index += 1               #move us past most recent space
 
