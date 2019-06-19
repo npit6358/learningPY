@@ -34,7 +34,7 @@ def passchecker(passw):
     composition = {alpha[i]:0 for i in range(len(alpha))}
 
     while i < runs:
-        password = passw()
+        password = genpass()  # Or passw latter on.
         totlen += len(password)
 
         for ch in password:

@@ -8,8 +8,8 @@ import secrets
 import string
 
 minlen = 8
-maxlength = 16
-length = maxlength
+maxlen = 16
+length = maxlen
 alpha = string.ascii_letters + string.digits + string.punctuation
 
 def genpass() -> str:
